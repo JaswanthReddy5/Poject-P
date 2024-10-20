@@ -1,0 +1,22 @@
+{
+  "name": "ya",
+  "version": "1.0.0",
+  "description": "freom",
+  "main": "Body.js",
+  "scripts": {
+    "test": "ee",
+    "start": "parcel index.html"
+  },      
+  "keywords": [
+    "eee"
+  ],
+  "author": "eeee",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

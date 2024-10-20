@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  min-height: 100vh;
+  overflow: scroll;
+  font-family: "Poppins", sans-serif;
+}
+
+.hexagon-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: 62rem;
+  display: block;
+  overflow: visible;
+}
+
+.text-overlay {
+  position: absolute;
+  left: 22%;
+  bottom: 88%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.text-overlay1 {
+  position: absolute;
+  left: 22%;
+  bottom: 28%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.hexagon {
+  position: absolute;
+  width: 100px;
+  height: 110px;
+  background: #111;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: background 0.3s ease;
+}
+
+.hexagon:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.hexagon:hover {
+  transition: 0s;
+  background: #0f0;
+  cursor: alias;
+}
+
+.container {
+  height: 100vh;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.kj {
+  position: relative;
+  color: aliceblue;
+  background-color: white;
+  color: black;
+  height: 3rem;
+  width: 100rem;
+}
+
+a {
+  margin-right: 200px;
+}
+
+.kj45 {
+  color: black;
+  background-color: whitesmoke;
+  height: 200px;
+  width: 200px;
+}
+
+.imagekj1 {
+  position: absolute;
+  left: 67%;
+  bottom: 51%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  height: 42%;
+  width: 51%;
+}
+
+.experience-section {
+  margin-top: 50px;
+}
+
+.experience-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experince-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.experince-info {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.progress-line {
+  background: #ddd; /* Light gray background for the progress line */
+  border-radius: 5px; /* Rounded corners */
+  height: 20px; /* Set height for visibility */
+  width: 100%; /* Full width of the parent */
+}
+
+.progress-bar {
+  background: #4caf50; /* Green color for the filled part */
+  height: 100%; /* Full height */
+  transition: width 1s ease-in-out; /* Smooth transition for width changes */
+}
+
+.experince-item:nth-child(1) .progress-bar {
+  animation: grow 2s forwards;
+}
+
+.experince-item:nth-child(2) .progress-bar {
+  animation: grow 2s 0.5s forwards;
+}
+
+.experince-item:nth-child(3) .progress-bar {
+  animation: grow 2s 1s forwards;
+}
+
+.experince-item:nth-child(4) .progress-bar {
+  animation: grow 2s 1.5s forwards;
+}
+
+.experince-item:nth-child(5) .progress-bar {
+  animation: grow 2s 2s forwards;
+}
+
+.experince-item:last-child .progress-bar {
+  animation: grow 2s 2.5s forwards;
+}
+
+@keyframes grow {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%; /* Change to the respective percentage for each item */
+  }
+}
+
+.progress-bar {
+  transition: width 1s ease-in-out; /* Smooth transition for width changes */
+}
+
+.slide-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slide-controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slide-controls button:hover {
+  background-color: #45a049;
+}
