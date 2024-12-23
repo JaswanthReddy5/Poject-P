@@ -18,12 +18,14 @@ body {
   height: 62rem;
   display: block;
   overflow: visible;
+  margin-top: 12rem;
+  z-index: 1;
 }
 
 .text-overlay {
   position: absolute;
   left: 22%;
-  bottom: 88%;
+  bottom: 43%;
   transform: translateX(-50%);
   z-index: 10;
   font-size: 2rem;
@@ -31,6 +33,7 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
+
 }
 
 .text-overlay1 {
@@ -42,7 +45,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: none;
   padding: 10px;
 }
 
@@ -86,14 +89,7 @@ body {
   }
 }
 
-.kj {
-  position: relative;
-  color: aliceblue;
-  background-color: white;
-  color: black;
-  height: 3rem;
-  width: 100rem;
-}
+
 
 a {
   margin-right: 200px;
@@ -106,7 +102,7 @@ a {
   width: 200px;
 }
 
-.imagekj1 {
+/* .imagekj1 {
   position: absolute;
   left: 67%;
   bottom: 51%;
@@ -119,22 +115,32 @@ a {
   padding: 10px;
   height: 42%;
   width: 51%;
-}
+} */
 
 .experience-section {
   margin-top: 50px;
 }
 
 .experience-items {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+    margin-right: -63rem;
+    height: 49rem;
+    width: 78rem;
+    align-items: center;
+    margin-bottom: -22rem;
 }
 
-.experince-item {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.experience-item {
+  height: 10rem;
+  margin:20px;
+  background-color: rgb(29, 29, 32);
+  padding: 1.2rem;
+  border-radius: 10px;
+  min-width: 320px
+  
 }
 
 .experince-info {
@@ -213,3 +219,464 @@ a {
 .slide-controls button:hover {
   background-color: #45a049;
 }
+
+
+.kj{
+    width: 115rem; /* Rectangle width */
+    height: 100px; /* Rectangle height */
+    border: 5px solid #3498db; /* Border properties */
+    border-radius: 50px; /* Half of the height to make borders semi-circular */
+    background: none; /* No background, only borders visible */
+    color: white;
+    position: relative;
+    justify-content: space-evenly;
+  }
+  
+/* Navbar styling */
+.kj {
+  width: 115rem; /* Rectangle width */
+  height: 100px; /* Rectangle height */
+  border: 5px solid #3498db; /* Border properties */
+  border-radius: 50px; /* Half of the height to make borders semi-circular */
+  background: none; /* No background, only borders visible */
+  color: white;
+  position: relative;
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-evenly; /* Evenly space out items */
+  align-items: center; /* Center items vertically */
+  margin-top: 20px; /* Moves the navbar downward */
+  padding: 0 20px; /* Optional padding */
+  z-index: 100; /* Ensure navbar is on top */
+}
+.kj {
+  width: 115rem; /* Rectangle width */
+  height: 100px; /* Rectangle height */
+  border: 5px solid #3498db; /* Border properties */
+  border-radius: 50px; /* Semi-circular borders */
+  background: (0,0,0,0.5); /* Transparent background */
+  color: white;
+  position: fixed; /* Fix the navbar to the top */
+  top: 2rem; /* Align to the top of the viewport */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center adjustment */
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-evenly; /* Evenly space items */
+  align-items: center; /* Center items vertically */
+  z-index: 100; /* Ensure navbar is on top of hexagons */
+  padding: 0 20px; /* Optional padding */
+  font-style: italic;
+  font-size: 1.4rem;
+}
+.text-overlay{
+  font-style: oblique;
+}
+
+.text-overlay5190{
+  position: absolute;
+  left: 35%;
+  bottom: 35%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px; 
+}
+.text-overlay1832{
+  position: absolute;
+  left: 22%;
+  bottom: 76%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+
+
+
+
+
+
+.kj87{
+  color: red;
+
+}
+
+
+
+
+
+.hexagon-container {
+  position: relative;
+  width: 100%;
+  height: 10vh; /* Ensures it fills the screen height */
+  overflow: hidden; /* Prevents content from spilling out */
+}
+.pattern {
+}
+
+
+.infinite-slider {
+  position: absolute;
+  top: 31%; /* Center it vertically */
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  width: calc(100% * 4); /* Adjust for 4 slides */
+  height: 500px; /* Limits the height of the slider */
+  /* animation: slide1 15s linear infinite; */
+  z-index: 1; /* Ensures it sits above the hexagons */
+}
+
+.slide1 {
+  flex: 0 0 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  height: 100%; /* Matches the slider height */
+}
+
+@keyframes slide1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300vw); /* Adjust based on slide count */
+  }
+}
+
+
+
+.slide2,.slide3,.slide3,.slide4 {
+  flex: 0 0 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  height: 100%; /* Matches the slider height */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hexagon-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pattern {
+}
+
+.infinite-slider {
+  position: absolute;
+  top: 31%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  width: calc(100% * 4); /* Adjust for 4 slides */
+  height: 500px; /* Limits the height of the slider */
+  z-index: 1;
+}
+
+.slide1, .slide2, .slide3, .slide4 {
+  flex: 0 0 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 20px;
+}
+
+.slide-image {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px; /* Adds space below the image */
+}
+
+.description {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  max-width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap"); */
+
+:root {
+  --shiny-cta-bg: #000000;
+  --shiny-cta-bg-subtle: #1a1818;
+  --shiny-cta-fg: #ffffff;
+  --shiny-cta-highlight: blue;
+  --shiny-cta-highlight-subtle: #8484ff;
+}
+
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@property --gradient-angle-offset {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@property --gradient-percent {
+  syntax: "<percentage>";
+  initial-value: 5%;
+  inherits: false;
+}
+
+@property --gradient-shine {
+  syntax: "<color>";
+  initial-value: white;
+  inherits: false;
+}
+
+.shiny-cta {
+  --animation: gradient-angle linear infinite;
+  --duration: 3s;
+  --shadow-size: 2px;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  outline-offset: 4px;
+  padding: 1.25rem 2.5rem;
+  font-family: inherit;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  border: 1px solid transparent;
+  border-radius: 360px;
+  color: var(--shiny-cta-fg);
+  background: linear-gradient(var(--shiny-cta-bg), var(--shiny-cta-bg))
+      padding-box,
+    conic-gradient(
+        from calc(var(--gradient-angle) - var(--gradient-angle-offset)),
+        transparent,
+        var(--shiny-cta-highlight) var(--gradient-percent),
+        var(--gradient-shine) calc(var(--gradient-percent) * 2),
+        var(--shiny-cta-highlight) calc(var(--gradient-percent) * 3),
+        transparent calc(var(--gradient-percent) * 4)
+      )
+      border-box;
+  box-shadow: inset 0 0 0 1px var(--shiny-cta-bg-subtle);
+
+  &::before,
+  &::after,
+  span::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-start: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+  }
+
+  &:active {
+    translate: 0 1px;
+  }
+}
+
+/* Dots pattern */
+.shiny-cta::before {
+  --size: calc(100% - var(--shadow-size) * 3);
+  --position: 2px;
+  --space: calc(var(--position) * 2);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(
+      circle at var(--position) var(--position),
+       calc(var(--position) / 4),
+      transparent 0
+    )
+    padding-box;
+  background-size: var(--space) var(--space);
+  background-repeat: space;
+  mask-image: conic-gradient(
+    from calc(var(--gradient-angle) + 45deg),
+    
+    transparent 10% 90%,
+    
+  );
+  border-radius: inherit;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+/* Inner shimmer */
+.shiny-cta::after {
+  --animation: shimmer linear infinite;
+  width: 100%;
+  aspect-ratio: 1;
+  background: linear-gradient(
+    -50deg,
+    transparent,
+    var(--shiny-cta-highlight),
+    transparent
+  );
+  mask-image: radial-gradient(circle at bottom, transparent 40%, black);
+  opacity: 0.6;
+}
+
+.shiny-cta span {
+  z-index: 1;
+
+  &::before {
+    --size: calc(100% + 1rem);
+    width: var(--size);
+    height: var(--size);
+    box-shadow: inset 0 -1ex 2rem 4px var(--shiny-cta-highlight);
+    opacity: 0;
+  }
+}
+
+/* Animate */
+.shiny-cta {
+  --transition: 800ms cubic-bezier(0.25, 1, 0.5, 1);
+  transition: var(--transition);
+  transition-property: --gradient-angle-offset, --gradient-percent,
+    --gradient-shine;
+
+  &,
+  &::before,
+  &::after {
+    animation: var(--animation) var(--duration),
+      var(--animation) calc(var(--duration) / 0.4) reverse paused;
+    animation-composition: add;
+  }
+
+  span::before {
+    transition: opacity var(--transition);
+    animation: calc(var(--duration) * 1.5) breathe linear infinite;
+  }
+}
+
+.shiny-cta:is(:hover, :focus-visible) {
+  --gradient-percent: 20%;
+  --gradient-angle-offset: 95deg;
+  --gradient-shine: var(--shiny-cta-highlight-subtle);
+
+  &,
+  &::before,
+  &::after {
+    animation-play-state: running;
+  }
+
+  span::before {
+    opacity: 1;
+  }
+}
+
+@keyframes gradient-angle {
+  to {
+    --gradient-angle: 360deg;
+  }
+}
+
+@keyframes shimmer {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes breathe {
+  from,
+  to {
+    scale: 1;
+  }
+  50% {
+    scale: 1.2;
+  }
+}
+
+html,
+
+
+body {
+  
+  place-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+.kj .home-button {
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+
+

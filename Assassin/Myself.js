@@ -7,9 +7,10 @@ return (
       {/* This div will hold the text */}
 
       <div className="text-overlay">hi myself k.jeswanth </div>
+      <div className="text-overlay5190">i am a Fullstack devlopler</div>
       <div className="pattern"></div>
       <div className='imagekj1'>
-        <img src='https://images.lifestyleasia.com/wp-content/uploads/sites/7/2023/11/27130715/animal-movie-2023.jpg'/>
+        
       </div>
     </div>
   );

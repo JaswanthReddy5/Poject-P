@@ -3,11 +3,11 @@ const Navbar = ()=>{
     return (
         <div className="head90">
             <div className="kj">
-                <a >Home</a>
-                <a >Projects</a>
-                <a >Experince</a>
-                <a >Know Languages</a>
-                <a >Participations</a>
+                <a class="shiny-cta"><b>Home</b></a>
+                <a><b>Projects</b></a>
+                <a><b>Experince</b></a>
+                <a><b>Know Languages</b></a>
+                <a><b>Participations</b></a>
             </div>
 
 

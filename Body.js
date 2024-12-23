@@ -4,6 +4,7 @@ import Navbar from "./Assassin/Navbar";
 import HexagonBackground from "./Assassin/HexagonBackground";
 import Knownlanguages from "./Assassin/Knownlanguages"
 import Myself from "./Assassin/Myself";
+import Participations from "./Assassin/Participations";
 const Body = ()=>{
     return (
         <>
@@ -15,6 +16,9 @@ const Body = ()=>{
          </div>
          <div>
             <Knownlanguages/>
+         </div>
+         <div>
+            <Participations/>
          </div>
 
         </>

@@ -52,7 +52,7 @@ const Knownlanguages = () => {
   return (
     <div className="hexagon-container">
       <div className="pattern"></div>
-      <div className="text-overlay">Known Languages</div>
+      <div className="text-overlay1832">Known Languages</div>
       <div>
         <section className="experience-section">
           <div className="container12">
