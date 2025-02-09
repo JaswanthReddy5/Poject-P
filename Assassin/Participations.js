@@ -1,4 +1,9 @@
 import React, { useEffect } from "react";
+import { useState } from "react";
+import img from "../Assesets/dbuglabs.jpg";
+import img1 from "../Assesets/iot.png";
+import img2 from "../Assesets/code.png";
+import img3 from "../Assesets/codequast.png";
 
 const Participations = () => {
   useEffect(() => {
@@ -23,29 +28,38 @@ const Participations = () => {
     }
   }, []);
 
+  const home=()=>{
+    const [CERTIFICATE,setcertificate]=useState('CERTIFICATE');
+  }
+
+  const onhandleclick=()=>{
+    setcertificate(img)
+  }
   return (
     <div className="hexagon-container">
       <div className="pattern"></div>
       <div className="infinite-slider">
         <div className="slide1">
+        
           <img
-            src="Cat03.jpg"
-            alt="Slide 1"
+            src= {img}
+            
             className="slide-image"
           />
-          <p className="description">This is a description for Slide 1.jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</p>
+          <button className="custom-btn btn-14"  >CERTIFICATE</button>
+          {/* <a className="discc">Participating in CodeQuest held by ACM-W SRM</a> */}
         </div>
         <div className="slide2">
           <img
-            src="Cat04.jpg"
+            src={img1}
             alt="Slide 2"
             className="slide-image"
           />
-          <p className="description">This is a description for Slide 2.</p>
+         <a className="discc">Participated in this event</a>
         </div>
         <div className="slide3">
           <img
-            src="Cat05.jpg"
+            src={img2}
             alt="Slide 3"
             className="slide-image"
           />
@@ -53,7 +67,7 @@ const Participations = () => {
         </div>
         <div className="slide4">
           <img
-            src="Cat06.jpg"
+            src={img3}
             alt="Slide 4"
             className="slide-image"
           />

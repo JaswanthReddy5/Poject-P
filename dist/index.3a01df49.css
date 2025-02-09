@@ -301,18 +301,18 @@ a {
 
 .infinite-slider {
   z-index: 1;
-  width: 400%;
+  width: 200%;
   height: 500px;
   display: flex;
   position: absolute;
-  top: 31%;
+  top: 52%;
   left: 0;
   transform: translateY(-50%);
 }
 
 .slide1, .slide2, .slide3, .slide4 {
   color: #fff;
-  background-color: #0009;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
   flex-direction: column;
   flex: 0 0 100vw;
   justify-content: flex-start;
@@ -320,11 +320,14 @@ a {
   padding: 20px;
   font-size: 2rem;
   display: flex;
+  position: relative;
+  top: 0;
 }
 
 .slide-image {
+  width: 35rem;
   max-width: 80%;
-  height: auto;
+  height: 27rem;
   margin-bottom: 20px;
 }
 
@@ -335,177 +338,126 @@ a {
   font-size: 1.2rem;
 }
 
-:root {
-  --shiny-cta-bg: #000;
-  --shiny-cta-bg-subtle: #1a1818;
-  --shiny-cta-fg: #fff;
-  --shiny-cta-highlight: blue;
-  --shiny-cta-highlight-subtle: #8484ff;
+.custom-btn btn-14 {
+  color: #fff;
+  background-color: #000;
+  justify-content: center;
+  position: absolute;
+  top: 180rem;
+  left: 52rem;
 }
 
-@property --gradient-angle {
-  syntax: "<angle>";
-  inherits: false;
-  initial-value: 0deg;
+.btn-14 {
+  z-index: 2;
+  background: #ff9700;
+  border: none;
+  border-radius: 20px;
+  height: 3rem;
+  position: absolute;
+  top: 23rem;
+  overflow: hidden;
 }
 
-@property --gradient-angle-offset {
-  syntax: "<angle>";
-  inherits: false;
-  initial-value: 0deg;
+.btn-14:after {
+  content: "";
+  z-index: -1;
+  background-color: #eaf818;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+  border-radius: 5px;
+  width: 100%;
+  height: 0;
+  transition: all .3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: inset 2px 2px 2px #ffffff80, 7px 7px 20px #0000001a, 4px 4px 5px #0000001a;
 }
 
-@property --gradient-percent {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 5%;
+.btn-14:hover:after {
+  height: 100%;
+  top: auto;
+  bottom: 0;
 }
 
-@property --gradient-shine {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #fff;
+.btn-14:active {
+  top: 2px;
 }
 
-.shiny-cta {
-  --animation: gradient-angle linear infinite;
-  --duration: 3s;
-  --shadow-size: 2px;
-  isolation: isolate;
-  cursor: pointer;
-  outline-offset: 4px;
-  color: var(--shiny-cta-fg);
-  background: linear-gradient(var(--shiny-cta-bg), var(--shiny-cta-bg)) padding-box, conic-gradient(from calc(var(--gradient-angle)  - var(--gradient-angle-offset)), transparent, var(--shiny-cta-highlight) var(--gradient-percent), var(--gradient-shine) calc(var(--gradient-percent) * 2), var(--shiny-cta-highlight) calc(var(--gradient-percent) * 3), transparent calc(var(--gradient-percent) * 4)) border-box;
-  box-shadow: inset 0 0 0 1px var(--shiny-cta-bg-subtle);
-  border: 1px solid #0000;
-  border-radius: 360px;
-  padding: 1.25rem 2.5rem;
-  font-family: inherit;
-  font-size: 1.125rem;
-  line-height: 1.2;
+.discc {
+  position: absolute;
+  top: 23.5rem;
+}
+
+.slide1 {
+  position: relative;
+}
+
+.color {
+  background-color: #194191de;
+  justify-content: center;
+  width: 30rem;
+  height: 62rem;
+  position: relative;
+}
+
+.navbar12 {
+  color: #fff;
+}
+
+.middlebar {
+  margin-top: 1.3rem;
+  position: absolute;
+}
+
+.slideshow-container {
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  margin: auto;
   position: relative;
   overflow: hidden;
-
-  &:before, &:after, & span:before {
-    content: "";
-    pointer-events: none;
-    z-index: -1;
-    position: absolute;
-    inset-block-start: 50%;
-    inset-inline-start: 50%;
-    translate: -50% -50%;
-  }
-
-  &:active {
-    translate: 0 1px;
-  }
+  box-shadow: 0 4px 8px #0003;
 }
 
-.shiny-cta:before {
-  --size: calc(100% - var(--shadow-size) * 3);
-  --position: 2px;
-  --space: calc(var(--position) * 2);
-  width: var(--size);
-  height: var(--size);
-  background: radial-gradient(circle at var(--position) var(--position), calc(var(--position) / 4), transparent 0) padding-box;
-  background-size: var(--space) var(--space);
-  mask-image: conic-gradient(from calc(var(--gradient-angle)  + 45deg), transparent 10% 90%, );
-  border-radius: inherit;
-  opacity: .4;
-  z-index: -1;
-  background-repeat: space;
+.slides {
+  width: 400%;
+  transition: transform .5s ease-in-out;
+  display: flex;
 }
 
-.shiny-cta:after {
-  --animation: shimmer linear infinite;
-  aspect-ratio: 1;
-  background: linear-gradient(-50deg, transparent, var(--shiny-cta-highlight), transparent);
-  opacity: .6;
-  width: 100%;
-  mask-image: radial-gradient(circle at bottom, #0000 40%, #000);
-}
-
-.shiny-cta span {
-  z-index: 1;
-
-  &:before {
-    --size: calc(100% + 1rem);
-    width: var(--size);
-    height: var(--size);
-    box-shadow: inset 0 -1ex 2rem 4px var(--shiny-cta-highlight);
-    opacity: 0;
-  }
-}
-
-.shiny-cta {
-  --transition: .8s cubic-bezier(.25, 1, .5, 1);
-  transition: var(--transition);
-  transition-property: --gradient-angle-offset, --gradient-percent, --gradient-shine;
-
-  &, &:before, &:after {
-    animation: var(--animation) var(--duration), var(--animation) calc(var(--duration) / .4) reverse paused;
-    animation-composition: add;
-  }
-
-  & span:before {
-    transition: opacity var(--transition);
-    animation: calc(var(--duration) * 1.5) breathe linear infinite;
-  }
-}
-
-.shiny-cta:is(:hover, :focus-visible) {
-  --gradient-percent: 20%;
-  --gradient-angle-offset: 95deg;
-  --gradient-shine: var(--shiny-cta-highlight-subtle);
-
-  &, &:before, &:after {
-    animation-play-state: running;
-  }
-
-  & span:before {
-    opacity: 1;
-  }
-}
-
-@keyframes gradient-angle {
-  to {
-    --gradient-angle: 360deg;
-  }
-}
-
-@keyframes shimmer {
-  to {
-    rotate: 360deg;
-  }
-}
-
-@keyframes breathe {
-  from, to {
-    scale: 1;
-  }
-
-  50% {
-    scale: 1.2;
-  }
-}
-
-html, body {
+.slide {
   color: #fff;
-  font-optical-sizing: auto;
-  -webkit-font-smoothing: antialiased;
-  place-items: center;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 500;
+  background: linear-gradient(135deg, #ff8a00, #e52e71);
+  flex: 0 0 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 24px;
+  display: flex;
 }
 
-.kj .home-button {
+.prev, .next {
   color: #fff;
-  text-transform: uppercase;
-  background-color: #3498db;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-weight: bold;
-  transition: background-color .3s;
+  cursor: pointer;
+  background-color: #00000080;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: all .3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev:hover, .next:hover {
+  background-color: #000c;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }
 /*# sourceMappingURL=index.3a01df49.css.map */

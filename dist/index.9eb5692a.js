@@ -2961,51 +2961,64 @@ var _myself = require("./Assassin/Myself");
 var _myselfDefault = parcelHelpers.interopDefault(_myself);
 var _participations = require("./Assassin/Participations");
 var _participationsDefault = parcelHelpers.interopDefault(_participations);
+var _slideshow = require("./Assassin/Slideshow");
+var _slideshowDefault = parcelHelpers.interopDefault(_slideshow);
 const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarDefault.default), {}, void 0, false, {
                     fileName: "Body.js",
-                    lineNumber: 12,
+                    lineNumber: 14,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "Body.js",
-                lineNumber: 11,
+                lineNumber: 13,
                 columnNumber: 10
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _myselfDefault.default), {}, void 0, false, {
                     fileName: "Body.js",
-                    lineNumber: 15,
+                    lineNumber: 17,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "Body.js",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 10
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _knownlanguagesDefault.default), {}, void 0, false, {
                     fileName: "Body.js",
-                    lineNumber: 18,
+                    lineNumber: 20,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "Body.js",
-                lineNumber: 17,
+                lineNumber: 19,
                 columnNumber: 10
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _participationsDefault.default), {}, void 0, false, {
                     fileName: "Body.js",
-                    lineNumber: 21,
+                    lineNumber: 23,
                     columnNumber: 13
                 }, undefined)
             }, void 0, false, {
                 fileName: "Body.js",
-                lineNumber: 20,
+                lineNumber: 22,
+                columnNumber: 10
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _slideshowDefault.default), {}, void 0, false, {
+                    fileName: "Body.js",
+                    lineNumber: 26,
+                    columnNumber: 13
+                }, undefined)
+            }, void 0, false, {
+                fileName: "Body.js",
+                lineNumber: 25,
                 columnNumber: 10
             }, undefined)
         ]
@@ -3015,7 +3028,7 @@ _c = Body;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
     fileName: "Body.js",
-    lineNumber: 28,
+    lineNumber: 34,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3026,7 +3039,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./Assassin/Navbar":"l0rJl","./Assassin/HexagonBackground":"Uk7eY","./Assassin/Knownlanguages":"bUAIL","./Assassin/Myself":"9m1w0","./Assassin/Participations":"aVRBX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./Assassin/Navbar":"l0rJl","./Assassin/HexagonBackground":"Uk7eY","./Assassin/Knownlanguages":"bUAIL","./Assassin/Myself":"9m1w0","./Assassin/Participations":"aVRBX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Assassin/Slideshow":"isFvB"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -27288,13 +27301,13 @@ const Navbar = ()=>{
             className: "kj",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    class: "shiny-cta",
+                    class: "",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
                         children: "Home"
                     }, void 0, false, {
                         fileName: "Assassin/Navbar.js",
                         lineNumber: 6,
-                        columnNumber: 38
+                        columnNumber: 29
                     }, undefined)
                 }, void 0, false, {
                     fileName: "Assassin/Navbar.js",
@@ -27856,9 +27869,18 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _dbuglabsJpg = require("../Assesets/dbuglabs.jpg");
+var _dbuglabsJpgDefault = parcelHelpers.interopDefault(_dbuglabsJpg);
+var _iotPng = require("../Assesets/iot.png");
+var _iotPngDefault = parcelHelpers.interopDefault(_iotPng);
+var _codePng = require("../Assesets/code.png");
+var _codePngDefault = parcelHelpers.interopDefault(_codePng);
+var _codequastPng = require("../Assesets/codequast.png");
+var _codequastPngDefault = parcelHelpers.interopDefault(_codequastPng);
 var _s = $RefreshSig$();
 const Participations = ()=>{
     _s();
+    var _s1 = $RefreshSig$();
     (0, _react.useEffect)(()=>{
         const patternElement = document.getElementsByClassName("pattern");
         const hexagonWidth = 100;
@@ -27877,6 +27899,14 @@ const Participations = ()=>{
             }
         }
     }, []);
+    const home = ()=>{
+        _s1();
+        const [CERTIFICATE, setcertificate1] = (0, _react.useState)('CERTIFICATE');
+    };
+    _s1(home, "jcVZee9SNO1DEURZ/YTF2iI3hrk=");
+    const onhandleclick = ()=>{
+        setcertificate((0, _dbuglabsJpgDefault.default));
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "hexagon-container",
         children: [
@@ -27884,7 +27914,7 @@ const Participations = ()=>{
                 className: "pattern"
             }, void 0, false, {
                 fileName: "Assassin/Participations.js",
-                lineNumber: 28,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27894,64 +27924,63 @@ const Participations = ()=>{
                         className: "slide1",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "Cat03.jpg",
-                                alt: "Slide 1",
+                                src: (0, _dbuglabsJpgDefault.default),
                                 className: "slide-image"
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 31,
+                                lineNumber: 44,
                                 columnNumber: 11
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "description",
-                                children: "This is a description for Slide 1.jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: "custom-btn btn-14",
+                                children: "CERTIFICATE"
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 36,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "Assassin/Participations.js",
-                        lineNumber: 30,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "slide2",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "Cat04.jpg",
+                                src: (0, _iotPngDefault.default),
                                 alt: "Slide 2",
                                 className: "slide-image"
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 39,
+                                lineNumber: 53,
                                 columnNumber: 11
                             }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "description",
-                                children: "This is a description for Slide 2."
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                className: "discc",
+                                children: "Participated in this event"
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 44,
-                                columnNumber: 11
+                                lineNumber: 58,
+                                columnNumber: 10
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "Assassin/Participations.js",
-                        lineNumber: 38,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "slide3",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "Cat05.jpg",
+                                src: (0, _codePngDefault.default),
                                 alt: "Slide 3",
                                 className: "slide-image"
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 47,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27959,25 +27988,25 @@ const Participations = ()=>{
                                 children: "This is a description for Slide 3."
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 52,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "Assassin/Participations.js",
-                        lineNumber: 46,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "slide4",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "Cat06.jpg",
+                                src: (0, _codequastPngDefault.default),
                                 alt: "Slide 4",
                                 className: "slide-image"
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 55,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27985,25 +28014,25 @@ const Participations = ()=>{
                                 children: "This is a description for Slide 4."
                             }, void 0, false, {
                                 fileName: "Assassin/Participations.js",
-                                lineNumber: 60,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "Assassin/Participations.js",
-                        lineNumber: 54,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "Assassin/Participations.js",
-                lineNumber: 29,
+                lineNumber: 41,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "Assassin/Participations.js",
-        lineNumber: 27,
+        lineNumber: 39,
         columnNumber: 5
     }, undefined);
 };
@@ -28018,6 +28047,159 @@ $RefreshReg$(_c, "Participations");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","2JViG","69BtK"], "69BtK", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Assesets/dbuglabs.jpg":"dv3sz","../Assesets/iot.png":"lA28a","../Assesets/code.png":"2nOXB","../Assesets/codequast.png":"4JdAJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dv3sz":[function(require,module,exports,__globalThis) {
+module.exports = require("a5679dfc8956ff7d").getBundleURL('47pjg') + "dbuglabs.e13d3d2d.jpg" + "?" + Date.now();
+
+},{"a5679dfc8956ff7d":"lgJ39"}],"lgJ39":[function(require,module,exports,__globalThis) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, '$1') + '/';
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"lA28a":[function(require,module,exports,__globalThis) {
+module.exports = require("e0c5a351b3f187c0").getBundleURL('47pjg') + "iot.7badf12a.png" + "?" + Date.now();
+
+},{"e0c5a351b3f187c0":"lgJ39"}],"2nOXB":[function(require,module,exports,__globalThis) {
+module.exports = require("5c99ffd55ad415c").getBundleURL('47pjg') + "code.930b9344.png" + "?" + Date.now();
+
+},{"5c99ffd55ad415c":"lgJ39"}],"4JdAJ":[function(require,module,exports,__globalThis) {
+module.exports = require("9717c438611162f2").getBundleURL('47pjg') + "codequast.f3902e0f.png" + "?" + Date.now();
+
+},{"9717c438611162f2":"lgJ39"}],"isFvB":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3265 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3265.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _slideshowCss = require("./Slideshow.css"); // Import the external CSS file
+var _codequastPng = require("../Assesets/codequast.png");
+var _codequastPngDefault = parcelHelpers.interopDefault(_codequastPng);
+var _s = $RefreshSig$();
+const slides = [
+    "Black.png",
+    "https://via.placeholder.com/500x300/E52E71/FFFFFF?text=Slide+2",
+    "https://via.placeholder.com/500x300/4CAF50/FFFFFF?text=Slide+3",
+    "https://via.placeholder.com/500x300/2196F3/FFFFFF?text=Slide+4"
+];
+const Slideshow = ()=>{
+    _s();
+    const [index, setIndex] = (0, _react.useState)(0);
+    const nextSlide = ()=>{
+        setIndex((prevIndex)=>(prevIndex + 1) % slides.length);
+    };
+    const prevSlide = ()=>{
+        setIndex((prevIndex)=>(prevIndex - 1 + slides.length) % slides.length);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: styles.container,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "slides",
+                style: {
+                    transform: `translateX(-${index * 100}%)`
+                },
+                children: slides.map((image, i)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "slide",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: image,
+                            alt: `Slide ${i + 1}`
+                        }, void 0, false, {
+                            fileName: "Assassin/Slideshow.js",
+                            lineNumber: 28,
+                            columnNumber: 13
+                        }, undefined)
+                    }, i, false, {
+                        fileName: "Assassin/Slideshow.js",
+                        lineNumber: 27,
+                        columnNumber: 11
+                    }, undefined))
+            }, void 0, false, {
+                fileName: "Assassin/Slideshow.js",
+                lineNumber: 25,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                className: "prev",
+                onClick: prevSlide,
+                children: "\u276E"
+            }, void 0, false, {
+                fileName: "Assassin/Slideshow.js",
+                lineNumber: 32,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                className: "next",
+                onClick: nextSlide,
+                children: "\u276F"
+            }, void 0, false, {
+                fileName: "Assassin/Slideshow.js",
+                lineNumber: 35,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "Assassin/Slideshow.js",
+        lineNumber: 24,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Slideshow, "x2oTrUAHknTo02Ld7gcDOqaxQ8E=");
+_c = Slideshow;
+const styles = {
+    container: {
+        position: "relative",
+        width: "500px",
+        height: "300px",
+        overflow: "hidden",
+        margin: "auto",
+        borderRadius: "10px",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)"
+    }
+};
+exports.default = Slideshow;
+var _c;
+$RefreshReg$(_c, "Slideshow");
+
+  $parcel$ReactRefreshHelpers$3265.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Slideshow.css":"cMgi0","../Assesets/codequast.png":"4JdAJ"}],"cMgi0":[function() {},{}]},["aQL8O","2JViG","69BtK"], "69BtK", "parcelRequire94c2")
 
 //# sourceMappingURL=index.9eb5692a.js.map

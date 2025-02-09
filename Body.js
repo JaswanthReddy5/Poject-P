@@ -5,6 +5,8 @@ import HexagonBackground from "./Assassin/HexagonBackground";
 import Knownlanguages from "./Assassin/Knownlanguages"
 import Myself from "./Assassin/Myself";
 import Participations from "./Assassin/Participations";
+import Slideshow from "./Assassin/Slideshow";
+
 const Body = ()=>{
     return (
         <>
@@ -20,6 +22,10 @@ const Body = ()=>{
          <div>
             <Participations/>
          </div>
+         <div>
+            <Slideshow/>
+         </div>
+         
 
         </>
     );
