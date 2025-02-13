@@ -5,7 +5,8 @@
   "main": "Body.js",
   "scripts": {
     "test": "ee",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "react-scripts build"
   },
   "keywords": [
     "eee"
@@ -15,7 +16,8 @@
   "dependencies": {
     "parcel": "^2.13.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"

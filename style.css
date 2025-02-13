@@ -302,7 +302,18 @@ a {
 
 
 
-
+.text-overlay51909{
+  position: absolute;
+  left: 61%;
+  bottom: 27%;  
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px; 
+}
 
 
 .kj87{
@@ -509,8 +520,11 @@ a {
 
 
 
-
-
+/* 
+.kj{
+    background-image: linear-gradient(red, yellow, blue);
+  
+} */
 
 
 

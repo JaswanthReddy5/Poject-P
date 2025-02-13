@@ -256,6 +256,19 @@ a {
   transform: translateX(-50%);
 }
 
+.text-overlay51909 {
+  z-index: 10;
+  color: #fff;
+  background-color: #00000080;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 27%;
+  left: 61%;
+  transform: translateX(-50%);
+}
+
 .kj87 {
   color: red;
 }

@@ -8,6 +8,8 @@ return (
 
       <div className="text-overlay">hi myself k.jeswanth </div>
       <div className="text-overlay5190">i am a Fullstack devlopler</div>
+      <div className="text-overlay51909">Dive into</div>
+
       <div className="pattern"></div>
       <div className='imagekj1'>
         

@@ -27827,17 +27827,25 @@ const Myself = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "pattern"
+                className: "text-overlay51909",
+                children: "Dive into"
             }, void 0, false, {
                 fileName: "Assassin/Myself.js",
                 lineNumber: 11,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "pattern"
+            }, void 0, false, {
+                fileName: "Assassin/Myself.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "imagekj1"
             }, void 0, false, {
                 fileName: "Assassin/Myself.js",
-                lineNumber: 12,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined)
         ]
