@@ -28119,7 +28119,7 @@ var _codequastPng = require("../Assesets/codequast.png");
 var _codequastPngDefault = parcelHelpers.interopDefault(_codequastPng);
 var _s = $RefreshSig$();
 const slides = [
-    "Black.png",
+    (0, _codequastPngDefault.default),
     "https://via.placeholder.com/500x300/E52E71/FFFFFF?text=Slide+2",
     "https://via.placeholder.com/500x300/4CAF50/FFFFFF?text=Slide+3",
     "https://via.placeholder.com/500x300/2196F3/FFFFFF?text=Slide+4"
@@ -28148,17 +28148,17 @@ const Slideshow = ()=>{
                             alt: `Slide ${i + 1}`
                         }, void 0, false, {
                             fileName: "Assassin/Slideshow.js",
-                            lineNumber: 28,
+                            lineNumber: 29,
                             columnNumber: 13
                         }, undefined)
                     }, i, false, {
                         fileName: "Assassin/Slideshow.js",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "Assassin/Slideshow.js",
-                lineNumber: 25,
+                lineNumber: 26,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -28167,7 +28167,7 @@ const Slideshow = ()=>{
                 children: "\u276E"
             }, void 0, false, {
                 fileName: "Assassin/Slideshow.js",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -28176,13 +28176,13 @@ const Slideshow = ()=>{
                 children: "\u276F"
             }, void 0, false, {
                 fileName: "Assassin/Slideshow.js",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "Assassin/Slideshow.js",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 5
     }, undefined);
 };

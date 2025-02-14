@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Slideshow.css"; // Import the external CSS file
+import codeImg from "../Assesets/codequast.png"; 
 import img from "../Assesets/codequast.png";
 
 const slides = [
-  "Black.png",
+  codeImg,
   "https://via.placeholder.com/500x300/E52E71/FFFFFF?text=Slide+2",
   "https://via.placeholder.com/500x300/4CAF50/FFFFFF?text=Slide+3",
   "https://via.placeholder.com/500x300/2196F3/FFFFFF?text=Slide+4",
