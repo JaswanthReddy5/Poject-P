@@ -285,6 +285,7 @@ a {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px; 
+  border-radius: 5rem;
 }
 .text-overlay1832{
   position: absolute;
@@ -313,6 +314,7 @@ a {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px; 
+  border-radius: 5rem;
 }
 
 

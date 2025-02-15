@@ -234,6 +234,7 @@ a {
   z-index: 10;
   color: #fff;
   background-color: #00000080;
+  border-radius: 5rem;
   padding: 10px;
   font-size: 2rem;
   font-weight: bold;
@@ -260,6 +261,7 @@ a {
   z-index: 10;
   color: #fff;
   background-color: #00000080;
+  border-radius: 5rem;
   padding: 10px;
   font-size: 2rem;
   font-weight: bold;
