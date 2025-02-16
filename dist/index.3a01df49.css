@@ -233,15 +233,33 @@ a {
 .text-overlay5190 {
   z-index: 10;
   color: #fff;
+  letter-spacing: 2px;
+  white-space: nowrap;
   background-color: #00000080;
   border-radius: 5rem;
+  width: 37rem;
   padding: 10px;
+  font-family: monospace;
   font-size: 2rem;
   font-weight: bold;
+  animation: 2s steps(26, end) forwards typing, .7s step-start infinite cursor-blink;
   position: absolute;
   bottom: 35%;
   left: 35%;
+  overflow: hidden;
   transform: translateX(-50%);
+}
+
+@keyframes cursor {
+  50% {
+    border-color: #0000;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
 
 .text-overlay1832 {

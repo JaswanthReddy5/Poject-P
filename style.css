@@ -286,7 +286,32 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px; 
   border-radius: 5rem;
+  letter-spacing: 2px;
+  font-family: monospace;
+  /* width: 100%; */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(26) forwards, cursor-blink 0.7s step-start infinite;
+  width: 37rem;
 }
+
+
+
+
+  
+
+@keyframes cursor{
+  50%{
+    border-color: transparent;
+  }
+}
+@keyframes typing{
+  from{width: 0}
+}
+
+
+
+
 .text-overlay1832{
   position: absolute;
   left: 22%;

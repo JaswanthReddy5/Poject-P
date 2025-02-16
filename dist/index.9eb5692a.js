@@ -27811,8 +27811,16 @@ const Myself = ()=>{
         className: "hexagon-container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "wrapper",
+                children: "hi myself"
+            }, void 0, false, {
+                fileName: "Assassin/Myself.js",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "text-overlay",
-                children: "hi myself k.jeswanth "
+                children: " k.jeswanth "
             }, void 0, false, {
                 fileName: "Assassin/Myself.js",
                 lineNumber: 9,
@@ -27835,17 +27843,24 @@ const Myself = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: ""
+            }, void 0, false, {
+                fileName: "Assassin/Myself.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "pattern"
             }, void 0, false, {
                 fileName: "Assassin/Myself.js",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "imagekj1"
             }, void 0, false, {
                 fileName: "Assassin/Myself.js",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 7
             }, undefined)
         ]
